@@ -72,19 +72,6 @@ tests/                      28 pytest tests (cleaning, model, advanced analysis,
 Churn is associated with: short tenure, month-to-month contracts (42.7% vs 2.8% on two-year), fibre-optic internet (41.9%),
 electronic-check payment, and lack of tech support / online security.
 
-## 5-minute viva demo script
-
-1. **Load data** - run `streamlit run app.py`; point out the 7,043 customers and 26.5% churn in the KPI strip.
-2. **Churn patterns** - *Overview* tab: month-to-month 42.7% vs two-year 2.8%; 0-12-month tenure 47.4% vs 9.5% for 49-72 months.
-   Try the sidebar filters.
-3. **Customer risk** - *Customer lookup* tab: pick a top-ranked ID → probability, risk band, factor chart, suggested actions.
-   Use the what-if boxes (e.g. switch Month-to-month → Two year) to show the score move.
-4. **Precision / recall** - *Model & metrics* tab: precision 51% (half of flagged customers really churn), recall 79% (we catch
-   79% of leavers). Show the yellow warning box: "predict nobody churns" = 73.5% accuracy, 0% recall. Drag the threshold slider
-   to show the precision/recall trade-off.
-5. **Going further** - *Model comparison* tab: five models score the same, so Logistic Regression was chosen for being explainable. *Retention ROI* tab: change the offer cost and watch the best threshold move.
-6. **Caveat** - *"The model shows associations in historical data; it does not prove why a customer leaves."*
-
 ## Limitations
 
 Associations not causation · single snapshot, no time dimension · linear model (no interactions) ·
