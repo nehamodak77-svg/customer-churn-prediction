@@ -1,0 +1,40 @@
+feature,coefficient,odds_ratio,direction
+tenure,-1.1537113653089892,0.3154637926765545,lowers churn risk
+InternetService = No,-1.1325538920505471,0.3222093169307087,lowers churn risk
+InternetService = Fiber optic,1.041720821971546,2.834089784534675,raises churn risk
+Contract = Two year,-0.7552292104586503,0.4699028957275977,lowers churn risk
+Contract = Month-to-month,0.6818973264206211,1.9776263776803649,raises churn risk
+TotalCharges,0.48617082146803725,1.6260777414751808,raises churn risk
+MonthlyCharges,-0.36572882841319043,0.6936908849651493,lowers churn risk
+PaymentMethod = Electronic check,0.2589679517966893,1.2955922827578124,raises churn risk
+StreamingMovies = No,-0.24388085428506265,0.7835809890184905,lowers churn risk
+OnlineSecurity = Yes,-0.24121148212439672,0.7856754525037799,lowers churn risk
+StreamingTV = No,-0.23176674865351654,0.7931311006299,lowers churn risk
+PaperlessBilling = No,-0.23095257513891154,0.7937771099117806,lowers churn risk
+MultipleLines = No,-0.20995720626039394,0.8106189346435616,lowers churn risk
+TechSupport = Yes,-0.20817844644181457,0.81206211418706,lowers churn risk
+PhoneService = Yes,-0.20478562810423342,0.8148219726210373,lowers churn risk
+Dependents = Yes,-0.17591253636596854,0.8386913351212208,lowers churn risk
+PaymentMethod = Bank transfer (automatic),-0.1442692938289249,0.8656546012260217,lowers churn risk
+PaymentMethod = Credit card (automatic),-0.14213388268706134,0.8675051047962679,lowers churn risk
+SeniorCitizen = No,-0.13895037690198245,0.8702712129404704,lowers churn risk
+StreamingMovies = Yes,0.12051751298002945,1.1280804968439844,raises churn risk
+OnlineSecurity = No,0.117848140819376,1.125073245692677,raises churn risk
+OnlineBackup = Yes,-0.11103751557243054,0.8949051754193433,lowers churn risk
+StreamingTV = Yes,0.10840340734848666,1.1144972510943785,raises churn risk
+PaperlessBilling = Yes,0.10758923383387792,1.1135902262383446,raises churn risk
+PaymentMethod = Mailed check,-0.09592811658574199,0.908529321911087,lowers churn risk
+MultipleLines = Yes,0.08659386495536227,1.0904537183037308,raises churn risk
+TechSupport = No,0.08481510513678883,1.08851578711363,raises churn risk
+PhoneService = No,0.08142228679919758,1.0848289087812644,raises churn risk
+gender = Female,-0.07781777572872393,0.925132992870094,lowers churn risk
+Partner = No,-0.0712712166770822,0.9312092983837469,lowers churn risk
+DeviceProtection = No,-0.06864995601559228,0.9336534426553512,lowers churn risk
+DeviceProtection = Yes,-0.05471338528943438,0.946756463399861,lowers churn risk
+Dependents = No,0.052549195060937755,1.0539544101546254,raises churn risk
+Partner = Yes,-0.05209212462793932,0.9492414143025678,lowers churn risk
+Contract = One year,-0.05003145726702186,0.9511995018933527,lowers churn risk
+gender = Male,-0.04554556557630409,0.9554760647625137,lowers churn risk
+InternetService = DSL,-0.032530271226028376,0.9679931470484445,lowers churn risk
+SeniorCitizen = Yes,0.015587035596955843,1.015709147063273,raises churn risk
+OnlineBackup = No,-0.012325825732590686,0.9877498261145755,lowers churn risk
